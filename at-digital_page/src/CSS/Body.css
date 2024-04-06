@@ -1,0 +1,169 @@
+.Background_image {
+    width: 1920px;
+}
+
+.GetConsultation_Container{
+    width: 630px;
+    height: 360px;
+    position: absolute;
+    top: 354px;
+    margin-left: 80px;
+    background-image: linear-gradient(to right, #4DCA79, #1CBDDD);
+    display: flex;
+}
+
+.GetConsultation_Container p {
+    width: 556px;
+    height: 192px;
+    font-size:45px;
+    font-family: "Inter", sans-serif;
+    color:white;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+
+.Consultaion_button {
+   position: relative;
+   top: 280px;
+   left: -370px
+}
+
+.QuestionContainer {
+    width: 846px;
+    height:392px;
+    background-color: white;
+    text-align: center; 
+    position: absolute;
+    top: 1920px;
+    left: 297px
+}
+
+.QuestionBox_topic {
+    color: #6B3CC9;
+    font-size: 27px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+@media (max-width: 1440px){
+    .Background_image {
+        width: 1440px;
+    }
+    
+}
+
+@media (max-width: 1200px){
+    
+    .Background_image {
+        width: 1200px;
+    }
+
+    .GetConsultation_Container{
+        width: 622px;
+        height: 306px;
+        position: absolute;
+        top: 300px;
+        margin-left: 60px;
+    }
+
+    .GetConsultation_Container p {
+        font-size:40px;  
+    }
+
+    .Consultaion_button{
+        position: relative;
+        top: 240px;
+        left: -370px
+    }
+
+    .QuestionContainer {
+        left: 152px;
+    }
+}
+
+@media (max-width: 768px){
+    
+    .Background_image {
+        width: 768px;
+    }
+
+    .GetConsultation_Container{
+        width: 768px;
+        height: 306px;
+        position: absolute;
+        top: 450px;
+        margin-left: 0px;
+    }
+
+    .Consultaion_button{
+        position: relative;
+        top: 220px;
+        left: -510px
+    }
+
+    .QuestionContainer {
+        left: 42px;
+    }
+
+    .QuestionBox_topic {
+        position: relative;
+        left: -70px;
+    }
+
+    .question-container {
+        max-width: 686px;
+    }
+}
+
+@media (max-width: 375px){
+    
+    .Background_image {
+        width: 375px;
+    }
+
+    .GetConsultation_Container{
+        width: 375px;
+        height: 230px;
+        position: absolute;
+        top: 260px;
+        margin-left: 0px;
+    }
+
+    .GetConsultation_Container p {
+        width: 375px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: -0.02em;
+        text-align: left;
+
+
+    }
+
+    .Consultaion_button{
+        position: relative;
+        top: 170px;
+        left: -120px
+    }
+
+    .QuestionBox_topic {
+        font-size: 20px;
+        position: relative;
+        left: -250px;
+    }
+
+    .question-container {
+        max-width: 334px;
+    }
+
+    .QuestionContainer {
+        left: 10px;
+        position: relative;
+        top: 300px;
+    }
+}

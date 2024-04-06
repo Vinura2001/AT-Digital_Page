@@ -1,0 +1,35 @@
+.question-container {
+    background-color: #FAF8FF;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.Questions{
+    position:relative;
+    top: 30px;
+}
+  
+.question-header {
+    display: flex;
+    align-items: center;
+}
+  
+.question-text {
+    flex: 1;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+  
+.answer-text {
+    margin-top: 10px;
+    color: #6F6C90;
+    font-family: "Inter", sans-serif;
+}
+  
+.question-header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+  
