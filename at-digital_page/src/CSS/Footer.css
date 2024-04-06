@@ -1,0 +1,180 @@
+footer {
+    position: absolute;
+    top: 2300px;
+    width: 1440px;
+    padding: 50px 20px; 
+    background-color: #6B3CC9;
+    color: #fff; 
+}
+  
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-gap: 20px;
+}
+  
+.Technology_Section,
+.Service_Section {
+    position: relative;
+    left: 250px;
+}
+
+.FooterLogo{
+    position: relative;
+    top: -50px;
+    left: -100px;
+}
+
+.Logo_Section p{
+    position: relative;
+    left: -100px;
+}
+
+h2 {
+    position: relative;
+    top: -40px;
+}
+  
+ul {
+    list-style: none; 
+    padding: 0;
+}
+  
+li {
+    margin-bottom: 10px; 
+}
+  
+a {
+    color: #fff; 
+    text-decoration: none; 
+}
+  
+hr {
+    width: 630px;
+    border: none;
+    border-top: 1px solid #fff; 
+    margin: 20px 0; 
+    position: relative;
+    left: 400px;
+}
+
+.footer-text {
+    text-align: center; 
+}
+
+
+@media (max-width: 1200px){
+    footer {
+        width: 1200px;
+    }
+
+    .Logo_Section p{
+        position: relative;
+        left: -60px;
+    }
+
+    .FooterLogo{
+        position: relative;
+        top: -50px;
+        left: -60px;
+    }
+
+    .Technology_Section,
+    .Service_Section {
+        position: relative;
+        left: 130px;
+    }
+
+    hr { 
+        position: relative;
+        left: 300px;
+    }
+}
+  
+@media (max-width: 768px){
+    footer {
+        width: 768px;
+        height: 428px;
+    }
+
+    .Logo_Section p{
+        position: relative;
+        left: 0px;
+    }
+
+    .FooterLogo{
+        position: relative;
+        top: -40px;
+        left: 0px;
+    }
+
+    .Technology_Section{
+        position: relative;
+        top: 200px;
+        left: -370px;
+    }
+
+
+    .Service_Section {
+        position: relative;
+        top: 40px;
+        left: 330px;
+    }
+
+    hr { 
+        position: relative;
+        top: 70px;
+        left: 60px;
+    }
+
+    .footer-text {
+        position: relative;
+        top: 70px;
+    }
+}
+
+@media (max-width: 375px){
+    footer {
+        width: 375px;
+        height: 599px;
+        position: relative;
+        top: 300px;
+    }
+
+    .Logo_Section p{
+        position: relative;
+        left: 0px;
+    }
+
+    .FooterLogo{
+        position: relative;
+        top: -40px;
+        left: 0px;
+    }
+
+    .Technology_Section{
+        position: relative;
+        top: 100px;
+        left: -0px;
+    }
+
+
+    .Service_Section {
+        position: relative;
+        top: 150px;
+        left: 0px;
+    }
+
+    hr { 
+        width: 300px;
+        position: relative;
+        top: 150px;
+        left: 30px;
+    }
+
+    .footer-text {
+        position: relative;
+        top: 140px;
+    }
+}
+  
